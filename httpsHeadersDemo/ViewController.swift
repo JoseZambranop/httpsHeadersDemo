@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let url = URL(string: "https://test.cenpos.net:9443/apis/merchants/10000009/login")
+        let url = URL(string: "https://ww3.cenpos.net/api/merchants/10000009/login")
             var request = URLRequest(url: url!)
             //request.httpMethod = "GET"
             request.addValue("Basic \(authorization)", forHTTPHeaderField: "Authorization")
